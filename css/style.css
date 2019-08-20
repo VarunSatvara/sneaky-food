@@ -1,0 +1,26 @@
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-head {
+    background-color: #7676ff;
+}
+
+.ticket-change {
+    font-size: 15px;
+    color: #3b1d82 !important;
+}
+
+.font-change {
+    font-size: 15px;
+    color: #2f2d4e !important;
+}
+
+.ft-change {
+    font-size: 15px;
+}
+
+.font-change:hover {
+    color: #ffffff;
+}
