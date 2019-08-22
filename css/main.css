@@ -50,13 +50,32 @@
         font-family: "Josefin Sans", sans-serif;
     }
     
-    @media all and (min-width: 1024px) and (max-width: 1440px) {
+    .about-head {
+        color: #e22104;
+        font-size: 24px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .about-speak {
+        color: #2f2d4e;
+        font-size: 50px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .about-paragraph {
+        color: #888888;
+        font-size: 15px;
+        padding-right: 20%;
+        line-height: 27px;
+    }
+    /* @media all and (min-width: 1024px) and (max-width: 1440px) {
         .fd-large-text {
             padding-right: 55%;
             font-size: 40px;
             line-height: 40px;
         }
     }
+     */
     
     @media all and (min-width: 768px) and (max-width: 1024px) {
         .fd-large-text {
@@ -67,6 +86,12 @@
         .fd-text {
             font-size: 14px;
         }
+        .about-speak {
+            font-size: 30px;
+        }
+        .about-paragraph {
+            padding-right: 10%;
+        }
     }
     
     @media all and (min-width: 425px) and (max-width: 768px) {
@@ -74,6 +99,12 @@
             padding-right: 20px;
             font-size: 40px;
             line-height: 40px;
+        }
+        .about-speak {
+            font-size: 28px;
+        }
+        .about-paragraph {
+            padding: 0px;
         }
     }
     
