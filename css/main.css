@@ -1,0 +1,94 @@
+    body,
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .nav-head {
+        background-color: #7676ff;
+    }
+    
+    .ticket-change {
+        font-size: 15px;
+        color: #3b1d82 !important;
+    }
+    
+    .font-change {
+        font-size: 15px;
+        color: #2f2d4e !important;
+    }
+    
+    .ft-change {
+        font-size: 15px;
+    }
+    
+    .font-change:hover {
+        color: #ffffff;
+    }
+    
+    .social-icon ul li {
+        list-style: none;
+    }
+    
+    .fd-large-text {
+        font-size: 70px;
+        font-family: "Josefin Sans", sans-serif;
+        color: #2f2d4e;
+        padding-right: 80px;
+    }
+    
+    .book-btn {
+        background-color: #ff0000;
+    }
+    
+    .food-services-list ul li {
+        display: inline-block;
+    }
+    
+    .fd-text {
+        color: #2f2d4e;
+        font-size: 18px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    @media all and (min-width: 1024px) and (max-width: 1440px) {
+        .fd-large-text {
+            padding-right: 55%;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+    
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+        .fd-large-text {
+            padding-right: 50px;
+            font-size: 55px;
+            line-height: 60px;
+        }
+        .fd-text {
+            font-size: 14px;
+        }
+    }
+    
+    @media all and (min-width: 425px) and (max-width: 768px) {
+        .fd-large-text {
+            padding-right: 20px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+    
+    @media all and (min-width: 375px) and (max-width: 425px) {
+        .fd-large-text {
+            padding: 0px 50px;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+    
+    @media all and (min-width: 320px) and (max-width: 375px) {
+        .fd-large-text {
+            padding: 0px 50px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
