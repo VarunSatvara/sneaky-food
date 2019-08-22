@@ -68,6 +68,16 @@
         padding-right: 20%;
         line-height: 27px;
     }
+    
+    .sneaky-pic {
+        position: relative;
+    }
+    
+    .sneaky-pic .box-image2 {
+        position: absolute;
+        bottom: -70px;
+        right: -15px;
+    }
     /* @media all and (min-width: 1024px) and (max-width: 1440px) {
         .fd-large-text {
             padding-right: 55%;
@@ -129,7 +139,7 @@
             line-height: 30px;
         }
         .about-speak {
-            font-size: 28px;
+            font-size: 24px;
         }
         .about-paragraph {
             padding: 0px;
