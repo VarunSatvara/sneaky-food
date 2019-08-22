@@ -37,6 +37,10 @@
     }
     
     .book-btn {
+        background-color: #e22104;
+    }
+    
+    .book-btn:hover {
         background-color: #ff0000;
     }
     
@@ -78,6 +82,51 @@
         bottom: -70px;
         right: -15px;
     }
+    
+    .feature-fd {
+        color: #e22104;
+        font-size: 24px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .fd-head {
+        color: #2f2d4e;
+        font-size: 50px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .branch-body {
+        background-color: #fff8f7;
+    }
+    
+    .food-card:hover .branch-body {
+        background-color: #fff;
+    }
+    
+    .item-name {
+        color: #2f2d4e;
+        font-size: 24px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .item-desc {
+        color: #888888;
+        font-size: 15px;
+    }
+    
+    .price-tag {
+        color: #e22104;
+        font-size: 24px;
+    }
+    
+    .star {
+        color: #ffbe0f;
+        font-size: 11px;
+    }
+    
+    .food-card:hover {
+        box-shadow: 0px 10px 20px 0px rgba(8, 6, 89, 0.1);
+    }
     /* @media all and (min-width: 1024px) and (max-width: 1440px) {
         .fd-large-text {
             padding-right: 55%;
@@ -116,6 +165,9 @@
         .about-paragraph {
             padding: 0px;
         }
+        .fd-head {
+            font-size: 30px;
+        }
     }
     
     @media all and (min-width: 375px) and (max-width: 425px) {
@@ -130,6 +182,9 @@
         .about-paragraph {
             padding: 0px;
         }
+        .fd-head {
+            font-size: 23px;
+        }
     }
     
     @media all and (min-width: 320px) and (max-width: 375px) {
@@ -143,5 +198,8 @@
         }
         .about-paragraph {
             padding: 0px;
+        }
+        .fd-head {
+            font-size: 23px;
         }
     }
