@@ -114,6 +114,12 @@
             font-size: 30px;
             line-height: 30px;
         }
+        .about-speak {
+            font-size: 28px;
+        }
+        .about-paragraph {
+            padding: 0px;
+        }
     }
     
     @media all and (min-width: 320px) and (max-width: 375px) {
@@ -121,5 +127,11 @@
             padding: 0px 50px;
             font-size: 20px;
             line-height: 30px;
+        }
+        .about-speak {
+            font-size: 28px;
+        }
+        .about-paragraph {
+            padding: 0px;
         }
     }
