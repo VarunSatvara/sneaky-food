@@ -365,9 +365,9 @@
                     margin-bottom: 2px;
                 }
                 .food-card-title::after {
-                    left: 76%;
+                    left: 79%;
                     top: 35%;
-                    width: 9%;
+                    width: 7%;
                 }
                 .dollar-tag {
                     font-size: 13px;
