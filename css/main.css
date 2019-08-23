@@ -1,6 +1,7 @@
             body,
             html {
                 font-family: 'Open Sans', sans-serif;
+                scroll-behavior: smooth;
             }
             
             .nav-head {
@@ -321,7 +322,7 @@
                 }
             }
             
-            @media screen and (min-width: 320px) and (max-width: 375px) {
+            @media screen and (min-width: 321px) and (max-width: 375px) {
                 .fd-large-text {
                     padding: 0px 50px;
                     font-size: 20px;
@@ -374,5 +375,61 @@
                 }
                 .media-paragraph {
                     font-size: 13px;
+                }
+            }
+            
+            @media screen and (min-width: 300px) and (max-width: 320px) {
+                .fd-large-text {
+                    padding: 0px 50px;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .about-speak {
+                    font-size: 24px;
+                }
+                .about-paragraph {
+                    padding: 0px;
+                }
+                .fd-head {
+                    font-size: 23px;
+                }
+                .offer-title-h3 {
+                    font-size: 23px;
+                }
+                .offer-card-discount {
+                    font-size: 27px;
+                }
+                .offer-link {
+                    font-size: 13px;
+                }
+                .offer-card-container {
+                    right: 0px;
+                    position: static;
+                    top: 0px;
+                    padding: 50px 0px;
+                }
+                .offer-card-container {
+                    right: 0px;
+                    position: static;
+                    top: 0px;
+                    padding: 50px 0px;
+                }
+                .roasted-text {
+                    font-size: 9px;
+                }
+                .food-card-title {
+                    position: relative;
+                    margin-bottom: 2px;
+                }
+                .food-card-title::after {
+                    left: 79%;
+                    top: 28%;
+                    width: 5%;
+                }
+                .dollar-tag {
+                    font-size: 9px;
+                }
+                .media-paragraph {
+                    font-size: 9px;
                 }
             }
