@@ -1,166 +1,203 @@
-        body,
-        html {
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        .nav-head {
-            background-color: #7676ff;
-        }
-        
-        .ticket-change {
-            font-size: 15px;
-            color: #3b1d82 !important;
-        }
-        
-        .font-change {
-            font-size: 15px;
-            color: #2f2d4e !important;
-        }
-        
-        .ft-change {
-            font-size: 15px;
-        }
-        
-        .font-change:hover {
-            color: #ffffff;
-        }
-        
-        .social-icon ul li {
-            list-style: none;
-        }
-        
-        .fd-large-text {
-            font-size: 70px;
-            font-family: "Josefin Sans", sans-serif;
-            color: #2f2d4e;
-            padding-right: 80px;
-        }
-        
-        .book-btn {
-            background-color: #e22104;
-        }
-        
-        .book-btn:hover {
-            background-color: #ff0000;
-        }
-        
-        .food-services-list ul li {
-            display: inline-block;
-        }
-        
-        .fd-text {
-            color: #2f2d4e;
-            font-size: 18px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .about-head {
-            color: #e22104;
-            font-size: 24px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .about-speak {
-            color: #2f2d4e;
-            font-size: 50px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .about-paragraph {
-            color: #888888;
-            font-size: 15px;
-            padding-right: 20%;
-            line-height: 27px;
-        }
-        
-        .sneaky-pic {
-            position: relative;
-        }
-        
-        .sneaky-pic .box-image2 {
-            position: absolute;
-            bottom: -70px;
-            right: -15px;
-        }
-        
-        .feature-fd {
-            color: #e22104;
-            font-size: 24px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .fd-head {
-            color: #2f2d4e;
-            font-size: 50px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .branch-body {
-            background-color: #fff8f7;
-        }
-        
-        .food-card:hover .branch-body {
-            background-color: #fff;
-        }
-        
-        .item-name {
-            color: #2f2d4e;
-            font-size: 24px;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .item-desc {
-            color: #888888;
-            font-size: 15px;
-        }
-        
-        .price-tag {
-            color: #e22104;
-            font-size: 24px;
-        }
-        
-        .star {
-            color: #ffbe0f;
-            font-size: 11px;
-        }
-        
-        .food-card:hover {
-            box-shadow: 0px 10px 20px 0px rgba(8, 6, 89, 0.1);
-        }
-        
-        .offer-card-container {
-            background-color: #e22104;
-            position: relative;
-            right: 30%;
-            top: 90px;
-        }
-        
-        .offer-title-h3 {
-            font-size: 40px;
-            font-weight: 400;
-            color: #fff;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .offer-card-discount {
-            font-size: 60px;
-            color: #fff;
-            font-family: "Josefin Sans", sans-serif;
-        }
-        
-        .offer-link {
-            display: inline-block;
-            color: #fff;
-            border-radius: 2rem;
-            border: 1px #fff solid;
-        }
-        
-        .offer-content {
-            display: grid;
-            align-content: center;
-            justify-content: center;
-        }
-        /* @media all and (min-width: 1024px) and (max-width: 1440px) {
+            body,
+            html {
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            .nav-head {
+                background-color: #7676ff;
+            }
+            
+            .ticket-change {
+                font-size: 15px;
+                color: #3b1d82 !important;
+            }
+            
+            .font-change {
+                font-size: 15px;
+                color: #2f2d4e !important;
+            }
+            
+            .ft-change {
+                font-size: 15px;
+            }
+            
+            .font-change:hover {
+                color: #ffffff;
+            }
+            
+            .social-icon ul li {
+                list-style: none;
+            }
+            
+            .fd-large-text {
+                font-size: 70px;
+                font-family: "Josefin Sans", sans-serif;
+                color: #2f2d4e;
+                padding-right: 80px;
+            }
+            
+            .book-btn {
+                background-color: #e22104;
+            }
+            
+            .book-btn:hover {
+                background-color: #ff0000;
+            }
+            
+            .food-services-list ul li {
+                display: inline-block;
+            }
+            
+            .fd-text {
+                color: #2f2d4e;
+                font-size: 18px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .about-head {
+                color: #e22104;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .about-speak {
+                color: #2f2d4e;
+                font-size: 50px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .about-paragraph {
+                color: #888888;
+                font-size: 15px;
+                padding-right: 20%;
+                line-height: 27px;
+            }
+            
+            .sneaky-pic {
+                position: relative;
+            }
+            
+            .sneaky-pic .box-image2 {
+                position: absolute;
+                bottom: -70px;
+                right: -15px;
+            }
+            
+            .feature-fd {
+                color: #e22104;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .fd-head {
+                color: #2f2d4e;
+                font-size: 50px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .branch-body {
+                background-color: #fff8f7;
+            }
+            
+            .food-card:hover .branch-body {
+                background-color: #fff;
+            }
+            
+            .item-name {
+                color: #2f2d4e;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .item-desc {
+                color: #888888;
+                font-size: 15px;
+            }
+            
+            .price-tag {
+                color: #e22104;
+                font-size: 24px;
+            }
+            
+            .star {
+                color: #ffbe0f;
+                font-size: 11px;
+            }
+            
+            .food-card:hover {
+                box-shadow: 0px 10px 20px 0px rgba(8, 6, 89, 0.1);
+            }
+            
+            .offer-card-container {
+                background-color: #e22104;
+                position: relative;
+                right: 30%;
+                top: 90px;
+            }
+            
+            .offer-title-h3 {
+                font-size: 40px;
+                font-weight: 400;
+                color: #fff;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .offer-card-discount {
+                font-size: 60px;
+                color: #fff;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .offer-link {
+                display: inline-block;
+                color: #fff;
+                border-radius: 2rem;
+                border: 1px #fff solid;
+            }
+            
+            .offer-content {
+                display: grid;
+                align-content: center;
+                justify-content: center;
+            }
+            
+            .food-card-one {
+                padding: 30px 40px 30px 40px;
+                background-color: #fff8f7;
+            }
+            
+            .food-card-title {
+                position: relative;
+                margin-bottom: 5px;
+            }
+            
+            .food-card-title::after {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 57%;
+                top: 40%;
+                width: 28%;
+                height: 1px;
+                background-color: #363636;
+            }
+            
+            .roasted-text {
+                color: #2f2d4e;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .media-paragraph {
+                color: #888888;
+                font-size: 15px;
+            }
+            
+            .food-card-one:hover {
+                background: #fff;
+                box-shadow: 0px 10px 20px 0px rgba(8, 6, 89, 0.1);
+            }
+            /* @media all and (min-width: 1024px) and (max-width: 1440px) {
         .fd-large-text {
             padding-right: 55%;
             font-size: 40px;
@@ -168,107 +205,127 @@
         }
     }
      */
-        
-        @media screen and (min-width: 768px) and (max-width: 1024px) {
-            .fd-large-text {
-                padding-right: 50px;
-                font-size: 55px;
-                line-height: 60px;
+            
+            @media screen and (min-width: 769px) and (max-width: 1024px) {
+                .fd-large-text {
+                    padding-right: 50px;
+                    font-size: 55px;
+                    line-height: 60px;
+                }
+                .fd-text {
+                    font-size: 14px;
+                }
+                .about-speak {
+                    font-size: 30px;
+                }
+                .about-paragraph {
+                    padding-right: 10%;
+                }
+                .offer-title-h3 {
+                    font-size: 20px;
+                }
+                .offer-card-discount {
+                    font-size: 30px;
+                }
+                .food-card-title::after {
+                    left: 78%;
+                    top: 40%;
+                    width: 5%;
+                }
             }
-            .fd-text {
-                font-size: 14px;
+            
+            @media screen and (min-width: 425px) and (max-width: 768px) {
+                .fd-large-text {
+                    padding-right: 20px;
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+                .about-speak {
+                    font-size: 28px;
+                }
+                .about-paragraph {
+                    padding: 0px;
+                }
+                .fd-head {
+                    font-size: 30px;
+                }
+                .offer-title-h3 {
+                    font-size: 27px;
+                }
+                .offer-card-discount {
+                    font-size: 31px;
+                }
+                .offer-link {
+                    font-size: 18px;
+                }
+                .offer-card-container {
+                    position: relative;
+                    right: 30%;
+                    top: 80px;
+                }
+                .food-card-title::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 57%;
+                    top: 40%;
+                    width: 28%;
+                    height: 1px;
+                    background-color: #363636;
+                }
             }
-            .about-speak {
-                font-size: 30px;
+            
+            @media screen and (min-width: 375px) and (max-width: 425px) {
+                .fd-large-text {
+                    padding: 0px 50px;
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+                .about-speak {
+                    font-size: 28px;
+                }
+                .about-paragraph {
+                    padding: 0px;
+                }
+                .fd-head {
+                    font-size: 23px;
+                }
+                .offer-card-container {
+                    right: 0px;
+                    position: static;
+                    top: 0px;
+                    padding: 50px 0px;
+                }
             }
-            .about-paragraph {
-                padding-right: 10%;
+            
+            @media screen and (min-width: 320px) and (max-width: 375px) {
+                .fd-large-text {
+                    padding: 0px 50px;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .about-speak {
+                    font-size: 24px;
+                }
+                .about-paragraph {
+                    padding: 0px;
+                }
+                .fd-head {
+                    font-size: 23px;
+                }
+                .offer-title-h3 {
+                    font-size: 23px;
+                }
+                .offer-card-discount {
+                    font-size: 27px;
+                }
+                .offer-link {
+                    font-size: 13px;
+                }
+                .offer-card-container {
+                    right: 0px;
+                    position: static;
+                    top: 0px;
+                    padding: 50px 0px;
+                }
             }
-            .offer-title-h3 {
-                font-size: 20px;
-            }
-            .offer-card-discount {
-                font-size: 30px;
-            }
-        }
-        
-        @media screen and (min-width: 425px) and (max-width: 767px) {
-            .fd-large-text {
-                padding-right: 20px;
-                font-size: 40px;
-                line-height: 40px;
-            }
-            .about-speak {
-                font-size: 28px;
-            }
-            .about-paragraph {
-                padding: 0px;
-            }
-            .fd-head {
-                font-size: 30px;
-            }
-            .offer-title-h3 {
-                font-size: 27px;
-            }
-            .offer-card-discount {
-                font-size: 31px;
-            }
-            .offer-link {
-                font-size: 18px;
-            }
-            .offer-card-container {
-                right: 0px;
-                position: static;
-                top: 0px;
-                padding: 50px 0px;
-            }
-        }
-        
-        @media screen and (min-width: 375px) and (max-width: 425px) {
-            .fd-large-text {
-                padding: 0px 50px;
-                font-size: 30px;
-                line-height: 30px;
-            }
-            .about-speak {
-                font-size: 28px;
-            }
-            .about-paragraph {
-                padding: 0px;
-            }
-            .fd-head {
-                font-size: 23px;
-            }
-        }
-        
-        @media screen and (min-width: 320px) and (max-width: 375px) {
-            .fd-large-text {
-                padding: 0px 50px;
-                font-size: 20px;
-                line-height: 30px;
-            }
-            .about-speak {
-                font-size: 24px;
-            }
-            .about-paragraph {
-                padding: 0px;
-            }
-            .fd-head {
-                font-size: 23px;
-            }
-            .offer-title-h3 {
-                font-size: 23px;
-            }
-            .offer-card-discount {
-                font-size: 27px;
-            }
-            .offer-link {
-                font-size: 13px;
-            }
-            .offer-card-container {
-                right: 0px;
-                position: static;
-                top: 0px;
-                padding: 50px 0px;
-            }
-        }
