@@ -298,8 +298,14 @@
             
             .employe-name {
                 color: #2f2d4e;
-                font-family: 'oswald', sans-serif;
                 font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .exp-paragraph {
+                font-size: 15px;
+                color: #888888;
+                line-height: 27px;
             }
             
             @media screen and (min-width: 769px) and (max-width: 1024px) {
