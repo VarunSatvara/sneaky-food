@@ -425,6 +425,11 @@
                 text-decoration: none;
             }
             
+            .ft-paragraph {
+                color: #777777;
+                font-size: 15px;
+            }
+            
             .ft-title {
                 color: #2f2d4e;
                 font-size: 24px;
@@ -435,18 +440,23 @@
                 background-color: #fff8f7;
             }
             
-            .copy {
+            .colorlib {
                 color: #777777;
                 font-size: 15px;
             }
             
-            .ft-icon-1 {
-                color: #ea0763;
+            .heart-icon {
+                color: #e22104;
             }
             
-            .footer-copy {
-                color: #666666;
-                font-size: 15px;
+            .icon-awesome {
+                height: 30px;
+                width: 30px;
+                background-color: #2f2d4e;
+            }
+            
+            .icon-awesome:hover {
+                background-color: #e22104;
             }
             
             @media screen and (min-width: 769px) and (max-width: 1024px) {
