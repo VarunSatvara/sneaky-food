@@ -93,6 +93,7 @@
             .fd-head {
                 color: #2f2d4e;
                 font-size: 50px;
+                padding-right: 100px;
                 font-family: "Josefin Sans", sans-serif;
             }
             
@@ -306,6 +307,94 @@
                 font-size: 15px;
                 color: #888888;
                 line-height: 27px;
+                padding-right: 110px;
+            }
+            
+            .book-txt {
+                font-size: 19px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .search-wrapper {
+                background: url(../images/reservation-bg.png) left center no-repeat;
+                background-size: cover;
+                padding: 30px 40px;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+            
+            .search-wrapper::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(2, 1, 15, 0.5);
+                z-index: -1;
+            }
+            /* .far,
+            .fas {
+                color: #bfbfbf;
+            } */
+            
+            .search-form .form-group {
+                margin-bottom: 15px;
+            }
+            
+            .input-group {
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: stretch;
+                width: 100%;
+            }
+            
+            .input-group>.custom-select:not(:last-child),
+            .input-group>.form-control:not(:last-child) {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            
+            .search-form .form-control {
+                font-size: 14px;
+                color: #999999;
+                padding-left: 20px;
+                border: 0;
+                height: 50px;
+                border-radius: 0;
+            }
+            
+            .input-group-append {
+                margin-left: -1px;
+            }
+            
+            .search-form .input-group-append .input-group-text {
+                border: 0;
+                padding-right: 20px;
+                border-radius: 0;
+                background: #fff;
+            }
+            
+            .search-form .input-group-append i,
+            .search-form .input-group-append span {
+                font-size: 15px;
+                color: #bfbfbf;
+            }
+            
+            .search-form .form-group:last-child {
+                margin-bottom: 0;
+            }
+            
+            .form-group-position {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                bottom: -22px;
+                left: 50%;
+                transform: translateX(-50%);
             }
             
             @media screen and (min-width: 769px) and (max-width: 1024px) {
