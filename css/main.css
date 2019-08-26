@@ -399,6 +399,7 @@
             .activity-txt {
                 color: #2f2d4e;
                 font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
             }
             
             .blog-body {
@@ -411,6 +412,41 @@
             
             .card-blog:hover .blog-body {
                 background: #fff;
+            }
+            
+            .ft-list ul li {
+                list-style: none;
+            }
+            
+            .ft-list ul li a {
+                color: #777777;
+                font-size: 15px;
+                line-height: 40px;
+                text-decoration: none;
+            }
+            
+            .ft-title {
+                color: #2f2d4e;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+            }
+            
+            .footer {
+                background-color: #fff8f7;
+            }
+            
+            .copy {
+                color: #777777;
+                font-size: 15px;
+            }
+            
+            .ft-icon-1 {
+                color: #ea0763;
+            }
+            
+            .footer-copy {
+                color: #666666;
+                font-size: 15px;
             }
             
             @media screen and (min-width: 769px) and (max-width: 1024px) {
