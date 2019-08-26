@@ -93,7 +93,6 @@
             .fd-head {
                 color: #2f2d4e;
                 font-size: 50px;
-                padding-right: 100px;
                 font-family: "Josefin Sans", sans-serif;
             }
             
@@ -307,7 +306,6 @@
                 font-size: 15px;
                 color: #888888;
                 line-height: 27px;
-                padding-right: 110px;
             }
             
             .book-txt {
